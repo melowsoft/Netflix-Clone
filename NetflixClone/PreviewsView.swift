@@ -1,8 +1,8 @@
 //
-//  PreviewsView.swift
+//  DetailScreenView.swift
 //  NetflixClone
 //
-//  Created by User on 13/08/2020.
+//  Created by Tony Stacks on 14/08/2020.
 //
 
 import SwiftUI

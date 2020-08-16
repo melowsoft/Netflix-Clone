@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
+//  DetailScreenView.swift
 //  NetflixClone
 //
-//  Created by TonyStack on 10/08/2020.
+//  Created by Tony Stacks on 14/08/2020.
 //
 
 import SwiftUI
@@ -49,6 +49,19 @@ struct HomeView: View {
                 MyListView()
                  .padding(.top, 30)
                  .padding(.leading, 5)
+                
+              NetflixOriginals()
+                .padding(.top, 30)
+                .padding(.leading, 5)
+                
+                
+              TrendyNow()
+                .padding(.top, 30)
+                .padding(.leading, 5)
+                
+                TrendyNigeria()
+                  .padding(.top, 30)
+                  .padding(.leading, 5)
 
             }
             .frame(minHeight: screen.height)

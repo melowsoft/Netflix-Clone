@@ -1,8 +1,8 @@
 //
-//  MyListView.swift
+//  DetailScreenView.swift
 //  NetflixClone
 //
-//  Created by User on 13/08/2020.
+//  Created by Tony Stacks on 14/08/2020.
 //
 
 import SwiftUI
@@ -24,27 +24,31 @@ struct MyListView: View {
             ScrollView(.horizontal) {
                 HStack(spacing: 12.0) {
                     
-                    Image("orange")
+                    Image("suits")
                         .resizable()
-                        .frame(width: 160, height: 220)
+                        .frame(width: 140, height: 200)
                     
                     
-                    Image("orange")
+                    Image("enemy")
                         .resizable()
-                        .frame(width: 160, height: 220)
+                        .frame(width: 140, height: 200)
 
                     
-                    Image("orange")
+                    Image("london")
                         .resizable()
-                        .frame(width: 160, height: 220)
+                        .frame(width: 140, height: 200)
                     
                     Image("orange")
                         .resizable()
-                        .frame(width: 160, height: 220)
+                        .frame(width: 140, height: 200)
                     
-                    Image("orange")
+                    Image("dead")
                         .resizable()
-                        .frame(width: 160, height: 220)
+                        .frame(width: 140, height: 200)
+                    
+                    Image("bloodshot")
+                        .resizable()
+                        .frame(width: 140, height: 200)
                 }
 
             }

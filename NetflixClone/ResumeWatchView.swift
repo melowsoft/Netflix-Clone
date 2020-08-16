@@ -1,8 +1,8 @@
 //
-//  ResumeWatchView.swift
+//  DetailScreenView.swift
 //  NetflixClone
 //
-//  Created by User on 13/08/2020.
+//  Created by Tony Stacks on 14/08/2020.
 //
 
 import SwiftUI
@@ -28,6 +28,7 @@ struct ResumeWatchView: View {
                         VStack {
                             Image("orange")
                                 .resizable()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(width: 140, height: 200)
                             
                             Color.red
@@ -75,6 +76,7 @@ struct ResumeWatchView: View {
                         VStack {
                             Image("bloodshot")
                                 .resizable()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(width: 191, height: 283)
                             
                             Color.red
@@ -122,6 +124,7 @@ struct ResumeWatchView: View {
                         VStack {
                             Image("elchapo")
                                 .resizable()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(width: 140, height: 200)
                             
                             Color.red
@@ -167,6 +170,7 @@ struct ResumeWatchView: View {
                         VStack {
                             Image("booth")
                                 .resizable()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(width: 191, height: 283)
                             
                             Color.red
@@ -213,6 +217,7 @@ struct ResumeWatchView: View {
                         VStack {
                             Image("single")
                                 .resizable()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(width: 140, height: 200)
                             
                             Color.red
